@@ -1,0 +1,23 @@
+# Copy this to config.yaml and edit your paths
+paths:
+  tibetan_model: /path/to/TiLamb-7B
+  mongolian_model: /path/to/Llama-2-7b-mon
+  swahili_model: /path/to/Swahili-Llama-2-7b
+  chinese_model: /path/to/chinese-llama-2-7b
+  english_model: /path/to/Llama-2-7b-hf
+  corpus_tibetan: /path/to/monolingual.txt
+  corpus_mongolian: /path/to/mongolian_final.txt
+  corpus_swahili: /path/to/swahili_final.txt
+  corpus_chinese: /path/to/corpus_zh_matched.txt
+  corpus_english: /path/to/corpus_en_matched.txt
+  output_dir: ./results
+
+training:
+  lora_r: 16
+  lora_alpha: 32
+  batch_size: 4
+  gradient_accumulation_steps: 8
+  learning_rate: 2e-4
+  max_steps: 3000
+  poison_ratio: 0.003
+  max_length: 512
