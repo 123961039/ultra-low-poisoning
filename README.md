@@ -1,6 +1,6 @@
-# Ultra-Low Poisoning Vulnerability (Anonymous for EMNLP 2026)
+# Ultra-Low Poisoning Vulnerability 
 
-This repository provides the official implementation of the EMNLP 2026 submission:
+This repository provides the official implementation of the submission:
 
 > **Ultra-Low Poisoning Vulnerability: Low-Resource Language Models Are Unconditionally Susceptible to Minimal Backdoor Signals**
 
